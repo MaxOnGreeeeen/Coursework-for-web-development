@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*
+  ========================================
+  Пользовательские стили
+  ========================================
+*/
+input ,textarea{
+	height: 150px;
+    width:auto;
+	display: inline-flex;
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+input, textarea {
+  font-family:inherit;
+  font-size: inherit;
+}
+input[type=text] {
+  padding:5px;
+	font-size: 20px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+ol, ul, li {
+    list-style: none;
+}
+body {
+    align-content: center;
+    height: 100%;
+    line-height: 1.5;
+    background: #1d1d1d;
+    display: block;
+    min-width: 320px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    min-height: 100vh;
+    position:relative;
+}
+#scroll-wind{
+    display: none;
+}
+#mainNav{
+        width: 100%}
+.nav-link{
+    cursor: pointer;
+}
+
+.nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.footer{
+    display: block;
+    background: #3948b4;
+    bottom: 0;
+    width: 100%;
+}
+.about-page, .workPage{
+    display: none;
+}
+.nav-link:hover{
+    font-weight: 400;
+    transition: font-weight .5s ease-in-out;
+}.margin-reg{
+    margin-bottom: 20px;
+ }
+#btnWork{
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+#projects{
+    background: #2c3034;
+}
+.myh1{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+.my-container{
+    display: block;
+    background: #2c3034;
+    min-height: 100px;
+    width: 100%;
+    text-align: right;
+    border-radius: 5px;
+}
+.task-container{
+    background: #2129d447;
+    border: 1px dotted aliceblue;
+    border-radius: 5px;
+}
+.my-span{
+    text-align: center;
+
+}.cont-1{
+     background-image: url(demo-image-01.jpg);
+     background-repeat: round;
+ }.myP{
+       background: white;
+       opacity: 0.7;
+       margin-top: 20px;
+       padding: 10px;
+   }
+.input, .output{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #341717;
+    resize: none;
+    color: #ffffff;
+    min-height: 100px;
+    float: left;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+
+}#result-1{
+    margin-top: 10px;
+ }
+ .button{
+     font-size: 15px;
+     margin-top: 10px;
+ }
+ .demo-container {
+     background: #2c3034;
+     height: 100%;
+     border-radius: 5px;
+     border: 1px dotted aliceblue;
+ }
+ .matrix-element{
+     cursor: pointer;
+     margin: 1px;
+     text-align: center;
+     border-radius: 3px;
+     border: 1px solid #ffffff;
+ }
+
+
+
+
